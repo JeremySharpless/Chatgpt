@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#000;
+}
+
+.scroll-container{
+  height:800vh;
+}
+
+.sticky-container{
+  position:sticky;
+  top:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+canvas{
+  width:100vw;
+  height:auto;
+  aspect-ratio:16/9;
+}
